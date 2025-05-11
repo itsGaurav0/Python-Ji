@@ -23,7 +23,7 @@ while Choice != '5':
         print(num1*num2)
     elif Operator == '/':
         if num1 == 0:
-            print("Invial number. Division is not posible")   
+            print("Invial number.")   
         else:
             print(num1/num2)           
 
