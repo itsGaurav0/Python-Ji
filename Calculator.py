@@ -5,9 +5,9 @@ while Choice != 5:
     print("3. Multiplication")
     print("4. Division ")
     print("5. Exit the Progarm ")
-    Choice = int(input("Enter the operation: "))
+    Choice = int(input("Enter the Operation: "))
     num1 = int(input("Enter the first Number: "))
-    num2 = int(input("Enter the second number: "))
+    num2 = int(input("Enter the second Number: "))
     Operator = " "
     match Choice:
         case 1: Operator ='+'
